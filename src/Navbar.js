@@ -11,6 +11,7 @@ const navigation = [
   { name: 'V Seri', href: 'Vseri', current: false },
   { name: 'Tentang vivo', href: 'Tentangvivo', current: false },
   { name: 'Api', href: 'Api', current: false },
+  { name: 'Info', href: 'Info', current: false },
 
 ]
 
