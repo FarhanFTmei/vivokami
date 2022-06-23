@@ -11,7 +11,7 @@ const Login = lazy(() => import('./Login'));
 const Login2 = lazy(() => import('./Login2'));
 const Tentangvivo = lazy(() => import('./Tentangvivo'));
 const Api = lazy(() => import('./Api'));
-const Info = lazy(() => import('./Info'));
+const Api2 = lazy(() => import('./Api2'));
 
 const App = () => (
 <div>
@@ -28,7 +28,7 @@ const App = () => (
         <Route path="/Login2" element={<Login2 />} />
         <Route path="/Tentangvivo" element={<Tentangvivo />} />
         <Route path="/Api" element={<Api />} />
-        <Route path="/Info" element={<Info />} />
+        <Route path="/Api2" element={<Api2 />} />
       </Routes>
     </Suspense>
   </Router>

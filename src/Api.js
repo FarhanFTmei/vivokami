@@ -10,7 +10,7 @@ export default function Example() {
   }, []);
 
   const getProduct = () => {
-    Axios.get(`http://localhost/northwind/api/list/products`)
+    Axios.get(`https://raw.githubusercontent.com/FarhanFTmei/jsonvivoid/main/vivo`)
       .then((res) => {
         const data = res.data;
         setProduct(data.products);
